@@ -1,3 +1,26 @@
-.container nav{
-	height: 15%;
+.container {
+	width: 100%;
 }
+
+header{
+	background-color: black;
+	position:  fixed;
+	width: 80%;
+	height: 10%;
+}
+
+#logo{
+	width: 25%;
+	float: left;
+	color: white;
+	background-color: green;
+	height: 100%;
+}
+
+nav{
+	background-color: red;
+	width: 75%;
+	float: right;
+	height: 100%;
+}
+
