@@ -2,35 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="reserveringen.css">
+    <link rel="stylesheet" type="text/css" href="ruimtereserveren.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Interpol </title>
 </head>
 <body>
+<div class="element2">
 <h3>
     Hier kunt u de zalen reserveren<br>
     Wij doen alleen aan contant, dus u kunt de ruimte hier alleen reserveren, betalen kunt u bij aanvang aan onze kassa doen. <br>
     Vul het onderstaande reserverings formulier in en dan bent u verzekerd van het reserveren van de zaal! <br>
 </h3>
-<form name ="reserveren" action="gereserveerd.html" method="get">
+<div class="element1">
+<form name ="reserveren" action="reserveringen/gereserveerd.html" method="get">
     <table border="0">
         <tr><td>Voornaam: </td>
-            <td><input type="text" name="voornaam" placeholder="Voornaam"> </td></tr>
+            <td><input type="text" name="voornaam" > </td></tr>
         <tr><td>Achternaam:  </td>
-            <td><input type="text" name="achternaam" placeholder="Achternaam"> </td></tr>
+            <td><input type="text" name="achternaam" > </td></tr>
         <tr> <td>E-mailadres: </td>
-            <td><input type="email" name="email" placeholder="E-mailadres"> </td></tr>
+            <td><input type="email" name="email" > </td></tr>
         <tr><td>Geboortedatum: (minimale leeftijd: 18 jaar)</td>
-            <td><input type="date" name="geboortedatum" min="1900-02-02"></td></tr>
+            <td><input type="date" name="geboortedatum" max="2000-02-02"></td></tr>
         <tr> <td>Adres: </td>
-            <td><input type="text" name="adres" placeholder="Adres"> </td></tr>
+            <td><input type="text" name="adres" > </td></tr>
         <tr> <td>Postcode en woonplaats: </td>
-            <td><input type="text" name="woonplaats" placeholder="Woonplaats"> </td></tr>
+            <td><input type="text" name="woonplaats" > </td></tr>
         <tr> <td> Van hoelaat tot hoelaat wilt u de zaal reserveren:</td>
-		<td> <input type="time" name="tijd" min="0:30"><input type="time" name="tijd" min="0:30"></td></tr>
+		<td> <input type="text" name="time" > </td> </tr>
+		<tr> <td> Welke zaal wilt u reserveren:</td>
+		<td> <input type="text" name="Zaal" ></td> </tr>
+		<td><input type="submit" name="Bestel tickets" placeholder="Bestel tickets"></td>
+		<td><input type="reset" name="Resetten" placeholder="Resetten"></td>
     </table>
-    <input type="submit" placeholder="Bestel tickets">
-    <input type="reset" name="Resetten">
 </form>
+</div>
 </body>
 </html>
