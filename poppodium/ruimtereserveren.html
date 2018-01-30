@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reserveringen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Interpol </title>
+</head>
+<body>
+<h3>
+    Hier kunt u de zalen reserveren<br>
+    Wij doen alleen aan contant, dus u kunt de ruimte hier alleen reserveren, betalen kunt u bij aanvang aan onze kassa doen. <br>
+    Vul het onderstaande reserverings formulier in en dan bent u verzekerd van het reserveren van de zaal! <br>
+</h3>
+<form name ="reserveren" action="gereserveerd.html" method="get">
+    <table border="0">
+        <tr><td>Voornaam: </td>
+            <td><input type="text" name="voornaam" placeholder="Voornaam"> </td></tr>
+        <tr><td>Achternaam:  </td>
+            <td><input type="text" name="achternaam" placeholder="Achternaam"> </td></tr>
+        <tr> <td>E-mailadres: </td>
+            <td><input type="email" name="email" placeholder="E-mailadres"> </td></tr>
+        <tr><td>Geboortedatum: (minimale leeftijd: 18 jaar)</td>
+            <td><input type="date" name="geboortedatum" min="1900-02-02"></td></tr>
+        <tr> <td>Adres: </td>
+            <td><input type="text" name="adres" placeholder="Adres"> </td></tr>
+        <tr> <td>Postcode en woonplaats: </td>
+            <td><input type="text" name="woonplaats" placeholder="Woonplaats"> </td></tr>
+        <tr> <td> Van hoelaat tot hoelaat wilt u de zaal reserveren:</td>
+		<td> <input type="time" name="tijd" min="0:30"><input type="time" name="tijd" min="0:30"></td></tr>
+    </table>
+    <input type="submit" placeholder="Bestel tickets">
+    <input type="reset" name="Resetten">
+</form>
+</body>
+</html>
