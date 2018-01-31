@@ -1,14 +1,4 @@
-*{
-	margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-}
 
-h3 {
-    text-align: center;
-    font-family: HelveticaNeueLTStd-Roman,Arial,sans-sherif;
-}
 
 
 	body{
@@ -28,29 +18,12 @@ h3 {
 	
 }
 
-nav{
-	background-color: red;
-	width: 75%;
-	float: left;
-	height: 100%;
-}
-
-.row {
-	width:100%;
-}
-
-.element1 {
-    float: center;
-    height: 98%;
-	color: white;
-	text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black
-	}
-	
-	.element2 {
+.element2 {
     float: center;
     height: 98%;
 	color: black;
-	text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white
+	text-shadow: -1px 0 white, 0 1px white,1px 0 white, 0 -1px white;
+	text-align: center;
 	}
 	
 	table, th,td{
@@ -63,19 +36,25 @@ nav{
 	  float: center;
 	  width: 50%;
 	  height: 25%;
+	 
+
   }
   
   input[type=text]{
-	  opacity: 0.3;
+	  opacity: 0.5;
+	  border: 0.5px solid black;
   }
 	  
 	  input[type=date]{
-	  opacity: 0.3;
+	  opacity: 0.5;
+	  border: 0.5px solid black;
   }
   
   input[type=email]{
-	  opacity: 0.3;
+	  opacity: 0.5;
+	  border: 0.5px solid black;
   }
+  
 	  
 
 
