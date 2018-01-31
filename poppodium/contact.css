@@ -47,7 +47,10 @@ table, th,td{
 	  float: center;
 	  width: 50%;
 	  height: 25%;
-	  opacity: 0.97;
-	  background: transparent;
   }
 
+  
+  .transparent {
+opacity:0.4;
+filter:alpha(opacity=40);
+}
