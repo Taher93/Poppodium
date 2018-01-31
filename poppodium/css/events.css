@@ -1,12 +1,29 @@
 body {
     font-family: HelveticaNeueLTStd-Roman,Arial,sans-sherif;
 }
-table {
+table td{
     text-align:left;
+    padding:10px;
 }
 #prog {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 250%;
+    font-size: 350%;
     text-align: center;
+    color: white;
+}
+#tabel1 {
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+    font-size:150%
+}
+a:link {
+    color:white;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    color:red;
 }
 
