@@ -1,7 +1,10 @@
 h3 {
     text-align: center;
-    font-family: HelveticaNeueLTStd-Roman,Arial,sans-sherif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 form {
     font-weight: bold;
+}
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
