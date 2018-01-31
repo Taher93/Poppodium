@@ -5,6 +5,9 @@ table td{
     text-align:left;
     padding:10px;
 }
+table th {
+    text-ailgn: left;
+}
 #prog {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 350%;
