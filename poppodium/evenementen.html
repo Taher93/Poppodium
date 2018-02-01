@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="template.css">
     <link rel="stylesheet" type="text/css" href="css/events.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -117,6 +118,33 @@
                         <td> €20,-</td>
                     </tr>
                 </table>
+                <div class="w3-content w3-section" style="max-width:500px">
+
+                    <img class="mySlides w3-animate-fading" src="img/slider/interpol.png" style="width: 350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/dubliners1.png" style="width:350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/kennyb.png" style="width:350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/martijnfishcers.png" style="width:350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/mdhs.png" style="width:350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/paceshifters1.png" style="width:350px">
+                    <img class="mySlides w3-animate-fading" src="img/slider/runthetrap.png" style="width:350px">
+                </div>
+
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {myIndex = 1}
+                        x[myIndex-1].style.display = "block";
+                        setTimeout(carousel, 9000);
+                    }
+                </script>
 
             </div>
             <!-- Sidebar Column -->
