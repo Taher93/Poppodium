@@ -17,3 +17,17 @@ body {
 .wit {
     color:white;
 }
+.breed {
+    width:100%;
+    color:black;
+}
+.zwart {
+    color:black;
+}
+
+.text-opmaak {
+    float: center;
+    height: 98%;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black
+	}
