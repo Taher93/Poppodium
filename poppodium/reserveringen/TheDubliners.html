@@ -1,10 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reserveringen.css">
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>The Dubliners</title>
 </head>
 <body>
+<section>
+    <header>
+        <div id="logo">
+            <img src="img/poppodium1.png" width="300px" height="70px">
+        </div>
+        <div class="navbar-more-overlay">
+        </div>
+        <div class="container">
+            <ul class="nav navbar-nav navbar-right mobile-bar">
+                <li>
+                    <a href="index.html">
+                        <span class="menu-icon fa fa-home"></span>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="reserveringen.html">
+                        <span class="menu-icon fa fa-info"></span>
+                        <span class="hidden-xs">Reserveringen</span>
+
+                    </a>
+                </li>
+                <li class="hidden-xs">
+                    <a href="evenementen.html">
+                        <span class="menu-icon fa fa-picture-o"></span>
+                        Evenementen
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <span class="menu-icon fa fa-ship"></span>
+                        Contact
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+        </nav>
+
+
+
+
+    </header>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <br/><br/><br/>
+        <div class="row">
+            <!-- Content Column -->
+            <div class="col-sm-10">
+                <h3 id="intro">
+                    Hier kunt u tickets reserveren voor het optreden van The Dubliners op dinsdag 20 maart 2018! <br>
+                    Wij doen alleen aan contante ticketverkoop, dus u kunt de tickets hier alleen reserveren, betalen kunt u bij aanvang aan onze kassa doen. <br>
+                    Vul het onderstaande reserverings formulier in en dan bent u verzekerd van een plek in de zaal! <br>
+                </h3>
+                <form name ="reserveren" action="gereserveerd.html" method="get">
+                    <table border="0" class="tabel">
+                        <tr><td>Voornaam: </td>
+                            <td><input type="text" name="voornaam" placeholder="Voornaam"> </td></tr>
+                        <tr><td>Achternaam:  </td>
+                            <td><input type="text" name="achternaam" placeholder="Achternaam"> </td></tr>
+                        <tr> <td>E-mailadres: </td>
+                            <td><input type="email" name="email" placeholder="E-mailadres"> </td></tr>
+                        <tr> <td>Telefoon nummer:</td>
+                            <td> <input type="number" name="telefoon" placeholder="Telefoon nummer"></td></tr>
+                        <tr><td>Geboortedatum: (minimale leeftijd: 18 jaar)</td>
+                            <td><input type="date" name="geboortedatum" max="2000-02-02"></td></tr>
+                        <tr> <td>Adres: </td>
+                            <td><input type="text" name="adres" placeholder="Adres"> </td></tr>
+                        <tr> <td>Postcode en woonplaats: </td>
+                            <td><input type="text" name="woonplaats" placeholder="Woonplaats"> </td></tr>
+                        <tr> <td> Selecteer het aantal tickets dat u wilt bestellen:</td>
+                            <td><select name="tickets">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select> </td></tr>
+                        <tr> <td></td><td><input type="submit" placeholder="Bestel tickets" align="center">
+                            <input type="reset" name="Resetten" align="center"> </td></tr>
+                    </table>
+                </form>
+            </div>
+
+            <!-- Sidebar Column -->
+            <div class="col-sm-2">
+					  
+					<div class="sidebar-widget">
+						<h5><font color="white">Nieuws Berichten</font></h5>
+						<hr>
+						<ul class="widget-post">
+							<ul>
+								
+								<a class="widget-post-media">
+									<img src="img/interpol_review.png">
+								</a>
+								<div>
+									<h6><a>
+										<a href="evenementen.html"><font color="white">KIJK WANNEER INTERPOL OPTREED!<br/>FEB. 2, 2018</font></a></h6>
+								</div>
+							</ul>
+							<ul>
+								<a class="widget-post-media">
+									<img src=img/runthetrap_klein.png>
+								</a>
+								<div class="widget-post-info" id="White-AsFuck-Boi">
+									<h6><a href="evenementen.html"><font color="white">KIJK WANNEER RTT EEN FEEST GEEFT<br/>FEB. 20, 2018</font></a></h6>
+								</div>
+							</ul>
+							<ul>
+								<a class="widget-post-media">
+									<img src="img/mhd_klein.png">
+								</a>
+								<div class="widget-post-info">
+									<h6><a href="evenementen.html">
+										<font color="white">KIJK WANNEER MHD OPTREED!<br/>MRT. 4, 2018</font></a></h6>
+								</div>
+							</ul>
+							<ul>
+									<a class="widget-post-media">
+										<img src="img/the dubliner_klein.png">
+									</a>
+									<div class="widget-post-info">
+										<h6><a href="evenementen.html">
+											<font color="white">KIJK WANNEER THE DUBLINERS OPTREDEN!<br/>MRT. 20, 2018</font></a></h6>
+									</div>
+								</ul>
+								<ul>
+										<a class="widget-post-media">
+											<img src="img/paceshifter_klein.png">
+										</a>
+										<div class="widget-post-info">
+											<h6><a href="evenementen.html">
+												<font color="white">KIJK WANNEER PACESHIFTERS OPTREDEN!<br/>APR. 1, 2018</font></a></h6>
+										</div>
+									</ul>
+									<ul>
+											<a class="widget-post-media">
+												<img src="img/kenny b_klein.png">
+											</a>
+											<div class="widget-post-info">
+												<h6><a href="evenementen.html">
+													<font color="white">KIJK WANNEER KENNY B OPTREED!<br/>MEI. 11, 2018</font></a></h6>
+												<div class="post-meta"><span></span></div>
+											</div>
+										</ul>
+										<ul>
+												<a class="widget-post-media">
+													<img src="img/martijn fischer_klein.png">
+												</a>
+												<div class="widget-post-info">
+													<h6><a href="evenementen.html">
+														<font color="white">KIJK WANNEER MARTIJN FISCHER OPTREED!<br/>JUN. 2, 2018</font></a></h6>
+												</div>
+											</ul>
+
+						</ul>
+					</div>
+
+					
+
+				</div></div>
+				  
+				</div>
+			  
+			  
+</section>
+
+		
+		
+
+
+
 
 </body>
+
 </html>
