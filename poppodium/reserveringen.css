@@ -17,6 +17,13 @@ body {
 .wit {
     color:white;
 }
+.breed {
+    width:100%;
+    color:black;
+}
+.zwart {
+    color:black;
+}
 
 .text-opmaak {
     float: center;
