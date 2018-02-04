@@ -2,9 +2,11 @@
 <html lang="nl">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="template.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="template.css">
+	<link rel="stylesheet" href="ism/css/my-slider.css"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="ism/js/ism-2.2.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<title>Poppodium</title>
@@ -69,35 +71,52 @@
 				<div class="row">
 					<!-- Content Column -->
 				  <div class="col-sm-10">
-                        <h2 class="slider-center"><font color="white">Voorgaande Evenementen die Poppodium heeft georganiseerd.</font></h2>
-                        
-                        <div class="slider-content slider-section">
-                          <img class="mySlides" src="img/slider/lego-duplo.png" style="width:101%">
-                          <img class="mySlides" src="img/slider/drake.png" style="width:101%">
-                          <img class="mySlides" src="img/slider/deadmau5.png" style="width:101%">
-                          <img class="mySlides" src="img/slider/BIG-SHAQ.png" style="width:101%">
-                          <img class="mySlides" src="img/slider/w&w.png" style="width:101%">
-                        
-                        </div>
-<br/>
-                        <p><font color="white">Poppodium is opgericht in 1986 in het plaatsje Township door meneer Kowed.</font></p>
-                        
-                        <script>
-                        var myIndex = 0;
-                        carousel();
-                        
-                        function carousel() {
-                            var i;
-                            var x = document.getElementsByClassName("mySlides");
-                            for (i = 0; i < x.length; i++) {
-                               x[i].style.display = "none";  
-                            }
-                            myIndex++;
-                            if (myIndex > x.length) {myIndex = 1}    
-                            x[myIndex-1].style.display = "block";  
-                            setTimeout(carousel, 6000); // Change image every 2 seconds
-                        }
-                        </script>
+						<h2><font color="white">Evenementen en Artiesten waarmee Poppodium heeft gewerkt:</font></h2>
+					<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-buttons="false" id="my-slider">
+						<ol>
+						  <li>
+							<img src="ism/image/slides/_u/1517762505285_551066.jpg">
+						  </li>
+						  <li>
+							<img src="ism/image/slides/_u/1517766889279_712265.jpg">
+						  </li>
+						  <li>
+							<img src="ism/image/slides/_u/1517764450530_316860.png">
+						  </li>
+						  <li>
+							<img src="ism/image/slides/_u/1517769641583_83866.png">
+						  </li>
+						  <li>
+							<img src="ism/image/slides/_u/1517769617136_54858.png">
+						  </li>
+						  <li>
+							<img src="ism/image/slides/_u/1517769675482_793655.png">
+						  </li>
+						</ol>
+					  </div>
+
+
+					  <div style="width: 600px height: 600px;background:#fcfcfc;position:relative; ">
+							  
+								  <div style="position:absolute;top:200px:left:200px;height:300px;width:1336px;background:rgba(0,0,0,0.6); ">
+  
+									  <h2 align="center"><font color="white">Poppodium is opgericht in 1982 in Amsterdam. Wij zijn begonnen als een soort van productie muziek bibliotheek, maar zijn over de afgelopen paar jaar langzaam veranderd in een nieuw soort muziek bedrijf.<br/>
+									  Ons doel is om individuen en bedrijven hun verhalen te laten kunnen vertellen doormiddel van muziek. En wij weten als geen ander, omdat 2 van de oprichters gerespecteerde muzikanten zijn, dat je geen goede muziek kan hebben zonder goede muzikanten.</font></h2>
+								  </div>
+							  </div>
+					 
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  
+					  
                         
                   </div>
                   
